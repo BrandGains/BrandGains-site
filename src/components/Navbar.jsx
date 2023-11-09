@@ -57,12 +57,12 @@ export default function Navbar() {
             >
               <ul className="h-screen md:h-auto items-center justify-end md:flex md:items-center"> 
                 <li className="text-l text-black text-center mr-4 hover:text-blue-500 ml-auto">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#" onClick={() => setNavbar(!navbar)}>
                     About
                   </Link>
                 </li>
                 <li className="text-l text-white text-center md:hover:text-purple-600 md:hover:bg-transparent ml-auto md:ml-auto md:lr-auto"> {/* Remove pb-6 and py-2 classes */}
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#" onClick={() => setNavbar(!navbar)}>
                     <button className="border border-black rounded-xl px-4 py-2 text-zinc-800 bg-blue-400 hover:shadow-md hover:shadow-zinc-400 transition-colors duration-300">
                       Apply Now
                     </button>
