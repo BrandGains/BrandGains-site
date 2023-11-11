@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 
 export default function Home() {
@@ -73,15 +74,13 @@ export default function Home() {
     {
       name: "Jane Smith",
       role: "Creative Director",
-      description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: "/assets/images/ty.jpg", // Replace with the actual image file path
     },
     {
       name: "Bob Johnson",
       role: "Marketing Specialist",
-      description:
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
       image: "/assets/images/ty.jpg", // Replace with the actual image file path
     },
   ];
@@ -90,10 +89,11 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="flex flex-col-reverse items-center sm:flex-row sm:mt-16 md:mt-0">
         <div className="w-full sm:w-1/2">
-          <img
+          <Image
             src="/assets/images/image.png"
             alt="Hero Image"
             width={1000}
+            height={10}
             className="w-full rounded-lg"
           />
         </div>
@@ -133,10 +133,12 @@ export default function Home() {
         </div>
 
         <div className="w-full lg:w-1/2 p-4 sm:flex sm:flex-col-reverse">
-          <img
+          <Image
             src="/assets/images/ty.jpg"
             alt="Image"
             className="w-2/3 max-w-md mx-auto h-auto rounded-md"
+            width={1000}
+            height={1000}
           />
         </div>
       </div>
@@ -157,9 +159,11 @@ export default function Home() {
               <div key={index} className="xl:w-1/3 md:w-1/2 p-4">
                 <div className="border border-gray-200 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                   <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                    <img
+                    <Image
                       src={service.icon}
                       alt={service.title}
+                      width={100}
+                      height={100}
                       className="w-full h-full object-cover rounded-full"
                     />
                   </div>
@@ -184,9 +188,11 @@ export default function Home() {
                 key={index}
                 className="bg-white rounded-md p-2 shadow-md flex items-center justify-center mb-4"
               >
-                <img
+                <Image
                   src={icon.icon}
                   alt={icon.name}
+                  width={10}
+                  height={10}
                   className="w-10 h-10 m-2"
                 />
               </div>
@@ -208,9 +214,11 @@ export default function Home() {
                 className="bg-lime-100 rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105 flex flex-col items-center m-8"
               >
                 <div className="w-fit relative overflow-hidden mb-4">
-                  <img
+                  <Image
                     src={wizard.image}
                     alt={wizard.name}
+                    width={1000}
+                    height={1000}
                     className="object-cover"
                   />
                 </div>

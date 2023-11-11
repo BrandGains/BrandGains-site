@@ -40,7 +40,6 @@ const ContactForm = () => {
     }, 5000);
   };
 
-
   return (
     <div className="min-h-screen">
       <h1 className="text-center text-blue-950 text-6xl my-6 font-bold">
@@ -135,8 +134,9 @@ const ContactForm = () => {
               <form className="p-6 flex flex-col justify-center">
                 <div className="bg-slate-100 flex flex-col mt-2 rounded-md">
                   {error &&
-                    error.map((e) => (
+                    error.map((e, index) => (
                       <div
+                        key={index}
                         className={`${
                           success ? "text-green-800" : "text-red-600"
                         } px-5 py-2`}
