@@ -1,8 +1,11 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
   const socialMediaIcons = [
     {
       name: "Facebook",
@@ -74,13 +77,15 @@ export default function Home() {
     {
       name: "Jane Smith",
       role: "Creative Director",
-      description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description:
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: "/assets/images/ty.jpg", // Replace with the actual image file path
     },
     {
       name: "Bob Johnson",
       role: "Marketing Specialist",
-      description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      description:
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
       image: "/assets/images/ty.jpg", // Replace with the actual image file path
     },
   ];
@@ -108,12 +113,11 @@ export default function Home() {
             Ready to join the revolution?
           </p>
           <div className="flex flex-col sm:flex-row">
-            <button className="bg-gray-300 border border-black text-zinc-800 hover:shadow-md hover:shadow-zinc-400 font-semibold py-2 px-4 rounded-full text-sm mb-4 sm:mb-0 sm:mr-4">
-              <a href="#learn-more">Learn More</a>
-            </button>
-            <button className="bg-red-500 border border-black hover:shadow-md hover:shadow-zinc-400 text-zinc-800 font-semibold py-2 px-4 rounded-full text-sm">
-              <a href="#contact">Contact Us</a>
-            </button>
+            <Link href="/Contact">
+              <button className="bg-red-500 border border-black hover:shadow-md hover:shadow-zinc-400 text-zinc-800 font-semibold py-2 px-4 rounded-full text-sm">
+                Contact Us
+              </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -177,9 +181,11 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Get Started
-          </button>
+          <Link href="/Contact">
+            <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              Get Started
+            </button>
+          </Link>
         </div>
         <div className="flex justify-center">
           <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
@@ -272,12 +278,14 @@ export default function Home() {
                 company a priority.
               </li>
             </ul>
-            <a
-              href="#contact"
-              className="border border-black rounded-xl px-4 py-2 text-zinc-800 text-md font-semibold bg-blue-400 hover:shadow-md hover:shadow-zinc-400 transition-colors duration-300"
-            >
-              Contact Us
-            </a>
+            <Link href="/Contact">
+              <button
+                href="#contact"
+                className="border border-black rounded-xl px-4 py-2 text-zinc-800 text-md font-semibold bg-blue-400 hover:shadow-md hover:shadow-zinc-400 transition-colors duration-300"
+              >
+                Contact Us
+              </button>
+            </Link>
           </div>
         </div>
       </section>
