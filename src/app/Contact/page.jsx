@@ -51,11 +51,11 @@ const ContactForm = () => {
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="p-6 mr-2 bg-gray-100 sm:rounded-lg">
                 <h1 className="text-4xl sm:text-5xl text-gray-800 font-extrabold tracking-tight">
-                  Let's Connect
+                  Let&apos;s Connect
                 </h1>
                 <p className="text-normal text-lg sm:text-2xl font-medium text-gray-600 mt-2">
                   Ready to turn ideas into reality? Fill in the form below, and
-                  let's start a conversation.
+                  let&apos;s start a conversation.
                 </p>
 
                 <div className="flex items-center mt-8 text-gray-600">
