@@ -104,13 +104,14 @@ export default function Home() {
         </div>
         <div className="w-full sm:w-1/2 text-black px-8">
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 mt-4 sm:mt-0">
-            Arise: Your Marketing Masterminds
+            Brand Gains: Gains for Your E-Commerce Platform
           </h1>
           <p className="text-lg sm:text-xl mb-6">
-            Discover the exciting world of Arise Social Media Marketing Agency.
-            We combine creativity, strategy, and innovative technology to create
-            stunning social media campaigns that deliver exceptional results.
-            Ready to join the revolution?
+            A Social Media Marketing Agency for E-Commerce. We combine
+            creativity, strategy, and innovative technology to create
+            result-based social media campaigns that deliver exceptional
+            results
+            <span className="block text-xl text-green-900 underline font-medium"> Ready to join the revolution?</span>
           </p>
           <div className="flex flex-col sm:flex-row">
             <Link href="/Contact">

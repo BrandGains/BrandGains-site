@@ -14,8 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="bg-gradient-to-r from-fuchsia-50 to-sky-50"></div>
+      <body className={`${inter.className} bg-gradient-to-r from-fuchsia-50 to-sky-50`}>
         <Navbar />
         {children}
         <Footer />
