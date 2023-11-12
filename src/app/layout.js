@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
-        <Analytics  id="prj_Rb7YptKPpuP4SEDLo8Lbi6dMEPMg"/>
+        <Analytics />
       </body>
     </html>
   );
