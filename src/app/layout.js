@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Analytics } from "@vercel/analytics/react";
+
 
 import "./globals.css";
 
@@ -14,10 +16,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gradient-to-r from-fuchsia-50 to-sky-50`}>
+      <body
+        className={`${inter.className} bg-gradient-to-r from-fuchsia-50 to-sky-50`}
+      >
         <Navbar />
         {children}
         <Footer />
+        <Analytics  id="prj_Rb7YptKPpuP4SEDLo8Lbi6dMEPMg"/>
       </body>
     </html>
   );
