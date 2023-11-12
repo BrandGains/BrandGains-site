@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Analytics } from "@vercel/analytics/react";
 
-
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -15,15 +14,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.className} bg-gradient-to-r from-fuchsia-50 to-sky-50`}
-      >
-        <Navbar />
-        {children}
-        <Footer />
-        <Analytics />
-      </body>
-    </html>
+    <>
+      <html lang="en">
+        <body
+          className={`${inter.className} bg-gradient-to-r from-fuchsia-50 to-sky-50`}
+        >
+          <Navbar />
+          {children}
+          <Footer />
+        </body>
+      </html>
+      <Analytics />
+    </>
   );
 }
