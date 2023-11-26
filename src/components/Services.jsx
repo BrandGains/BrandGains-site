@@ -10,7 +10,7 @@ const Services = () => {
     {
       name: "Facebook",
       icon: "/assets/images/facebook.svg",
-      page: "",
+      page: "https://www.instagram.com/brandgains/",
     },
     {
       name: "Instagram",
@@ -20,12 +20,12 @@ const Services = () => {
     {
       name: "Twitter",
       icon: "/assets/images/twitter.svg",
-      page: "",
+      page: "https://www.instagram.com/brandgains/",
     },
     {
       name: "Linkedin",
       icon: "/assets/images/linkedin.svg",
-      page: "",
+      page: "https://www.instagram.com/brandgains/",
     },
     // {
     //   name: "Youtube",
