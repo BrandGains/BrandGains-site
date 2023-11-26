@@ -117,7 +117,7 @@ const Services = () => {
         <div className="flex justify-center items-center">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {socialMediaIcons.map((icon, index) => (
-              <Link href={icon.page}>
+              <Link href={icon.page} key={index}>
                 <div
                   key={index}
                   className="bg-white rounded-md p-2 shadow-md flex items-center justify-center mb-4 mx-auto"
