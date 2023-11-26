@@ -87,27 +87,25 @@ const Services = () => {
           </div>
           <div className="flex flex-wrap -m-4">
             {servicesData.map((service, index) => (
-              <Link href={service.page}>
-                <div key={index} className="xl:w-1/3 md:w-1/2 p-4">
-                  <div className="border border-gray-200 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                    <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                      <Image
-                        src={service.icon}
-                        alt={service.title}
-                        width={100}
-                        height={100}
-                        className="w-full h-full object-cover rounded-full"
-                      />
-                    </div>
-                    <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                      {service.title}
-                    </h2>
-                    <p className="leading-relaxed text-base">
-                      {service.description}
-                    </p>
+              <div key={index} className="xl:w-1/3 md:w-1/2 p-4">
+                <div className="border border-gray-200 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                  <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                    <Image
+                      src={service.icon}
+                      alt={service.title}
+                      width={100}
+                      height={100}
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>
+                  <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
+                    {service.title}
+                  </h2>
+                  <p className="leading-relaxed text-base">
+                    {service.description}
+                  </p>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
           <Link href="/Contact">
@@ -119,18 +117,20 @@ const Services = () => {
         <div className="flex justify-center items-center">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {socialMediaIcons.map((icon, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-md p-2 shadow-md flex items-center justify-center mb-4 mx-auto"
-              >
-                <Image
-                  src={icon.icon}
-                  alt={icon.name}
-                  width={10}
-                  height={10}
-                  className="w-10 h-10 m-2"
-                />
-              </div>
+              <Link href={icon.url}>
+                <div
+                  key={index}
+                  className="bg-white rounded-md p-2 shadow-md flex items-center justify-center mb-4 mx-auto"
+                >
+                  <Image
+                    src={icon.icon}
+                    alt={icon.name}
+                    width={10}
+                    height={10}
+                    className="w-10 h-10 m-2"
+                  />
+                </div>
+              </Link>
             ))}
           </div>
         </div>
