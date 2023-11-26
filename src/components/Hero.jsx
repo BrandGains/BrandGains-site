@@ -34,7 +34,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row">
             <Link href="/Contact">
-              <button className="bg-red-500 border border-black hover:shadow-md hover:shadow-zinc-400 text-zinc-800 font-semibold py-2 px-4 rounded-full text-sm">
+              <button className="bg-red-500 border border-black hover:shadow-md hover:shadow-zinc-400 text-zinc-800 font-semibold py-2 px-4 rounded-xl text-md">
                 Contact Us
               </button>
             </Link>

@@ -10,27 +10,22 @@ const Call = () => {
         <div className="container mx-auto">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl font-semibold mb-6">
-              Schedule Your Call with Dany
+              Schedule Your Zoom Meeting
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              Free 15-Minute Demo Call. By the end of this Audit call, you will
-              have a clear understanding of the next steps you can take for your
-              business to start generating consistent and reliable results
-              online with Funnels & Paid Advertising.
-            </p>
-            <p className="text-lg text-gray-700 mb-6">
-              Find a time on Dany’s calendar to schedule your call today, and we
-              look forward to speaking to you soon!
+              Receive a complimentary 15-minute Zoom call from us to learn how
+              our services can assist you.
             </p>
             <h3 className="text-2xl font-semibold mb-4">
-              This Audit Call is Perfect For:
+              The Meeting is Perfect For
             </h3>
             <ul className="text-lg text-gray-700 list-disc pl-6 mb-6">
               <li>
-                Businesses looking to convert their current website into a
-                high-quality & streamlined funnel format.
+                Condensing the existing website into elegant, well-functioning
+                funnels. Making the move from an offline to an internet
+                business.
               </li>
-              <li>Businesses looking to take their offline business online.</li>
+              <li>Recognizing the possibilities for increasing revenue via conversion rate optimization and funnels.</li>
               <li>
                 Businesses looking to understand their increased revenue
                 potential with funnels & conversion rate optimization.
@@ -47,7 +42,7 @@ const Call = () => {
             <Link href="/Contact">
               <button
                 href="#contact"
-                className="border border-black rounded-xl px-4 py-2 text-zinc-800 text-md font-semibold bg-blue-400 hover:shadow-md hover:shadow-zinc-400 transition-colors duration-300"
+                className="border border-black rounded-xl px-4 py-2 text-zinc-800 text-md  bg-blue-400 hover:shadow-md hover:shadow-zinc-400 transition-colors duration-300"
               >
                 Contact Us
               </button>

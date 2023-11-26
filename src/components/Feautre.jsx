@@ -1,6 +1,6 @@
 // Feature.js
 
-import React from 'react';
+import React from "react";
 
 const Feature = () => {
   return (
@@ -10,7 +10,7 @@ const Feature = () => {
           <img
             alt="feature"
             className="object-cover object-center h-full w-full"
-            src="https://dummyimage.com/600x400/dbd6f0/000000&text=lui+lui"
+            src="/assets/images/Rocket-leads.png"
           />
         </div>
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
@@ -34,23 +34,10 @@ const Feature = () => {
                 Shooting Stars
               </h2>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Our skilled team assists in launching and propelling your brand
+                to new heights. Experience exceptional outcomes from customized
+                social media strategies.
               </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
             </div>
           </div>
 
@@ -76,23 +63,11 @@ const Feature = () => {
                 The Catalyzer
               </h2>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                unleash your company's development. Concentrate on what is
+                important while we handle the rest. Experience faster results
+                and discover your company's actual potential.
               </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
+
             </div>
           </div>
 
@@ -117,23 +92,9 @@ const Feature = () => {
                 Neptune
               </h2>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Our customized tactics expand the audience for your brand. Gain
+                success by utilizing our creative solutions.
               </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
             </div>
           </div>
         </div>
