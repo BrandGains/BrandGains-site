@@ -1,5 +1,4 @@
-// Feature.js
-
+import Image from "next/image";
 import React from "react";
 
 const Feature = () => {
@@ -7,7 +6,9 @@ const Feature = () => {
     <section className="text-gray-600 body-font mx-8">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-          <img
+          <Image
+            width={1000}
+            height={1000}
             alt="feature"
             className="object-cover object-center h-full w-full"
             src="/assets/images/Rocket-leads.png"
@@ -63,9 +64,9 @@ const Feature = () => {
                 The Catalyzer
               </h2>
               <p className="leading-relaxed text-base">
-                unleash your company's development. Concentrate on what is
+                unleash your company&apos;s development. Concentrate on what is
                 important while we handle the rest. Experience faster results
-                and discover your company's actual potential.
+                and discover your company&apos;s actual potential.
               </p>
 
             </div>
