@@ -10,7 +10,7 @@ const Services = () => {
     {
       name: "Facebook",
       icon: "/assets/images/facebook.svg",
-      page: "https://www.instagram.com/brandgains/",
+      page: "https://twitter.com/Brand_Gains",
     },
     {
       name: "Instagram",
@@ -25,7 +25,7 @@ const Services = () => {
     {
       name: "Linkedin",
       icon: "/assets/images/linkedin.svg",
-      page: "https://www.instagram.com/brandgains/",
+      page: "https://www.linkedin.com/in/brand-gains-16806029b/",
     },
     // {
     //   name: "Youtube",
@@ -117,7 +117,7 @@ const Services = () => {
         <div className="flex justify-center items-center">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {socialMediaIcons.map((icon, index) => (
-              <Link href={icon.page} key={index}>
+              <Link href={icon.page} key={index} target="_blank">
                 <div
                   key={index}
                   className="bg-white rounded-md p-2 shadow-md flex items-center justify-center mb-4 mx-auto"
