@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       {/* Microsoft Clarity */}
-      <Script
+      {/* <Script
         id="clarity"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -28,7 +28,7 @@ export default function Home() {
             })(window, document, "clarity", "script", "${process.env.NEXT_PUBLIC_CLARITY_KEY}");
           `,
         }}
-      />
+      /> */}
       <Hero />
       <Feature />
       <Services />
@@ -37,15 +37,15 @@ export default function Home() {
 
       {/* Google Analytics */}
       <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=id=G-PGR865BV9D`}
       />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script id="google-analytics" strategy="lazyOnload">
         {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+        gtag('config', 'G-PGR865BV9D');
     `}
       </Script>
     </div>
