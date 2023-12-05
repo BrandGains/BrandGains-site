@@ -15,6 +15,20 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
+      {/* Google Analytics */}
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=id=G-PGR865BV9D`}
+      />
+      <Script id="google-analytics" strategy="lazyOnload">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PGR865BV9D');
+    `}
+      </Script>
+      
       {/* Microsoft Clarity */}
       {/* <Script
         id="clarity"
@@ -35,19 +49,6 @@ export default function Home() {
       {/* <Wizards /> */}
       <Call />
 
-      {/* Google Analytics */}
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=id=G-PGR865BV9D`}
-      />
-      <Script id="google-analytics" strategy="lazyOnload">
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PGR865BV9D');
-    `}
-      </Script>
     </div>
   );
 }
