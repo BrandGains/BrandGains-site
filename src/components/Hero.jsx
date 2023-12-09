@@ -20,8 +20,10 @@ const Hero = () => {
           />
         </div>
         <div className="w-full sm:w-1/2 text-black px-8">
-          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 mt-4 sm:mt-0">
-            Brand Gains: Gains for Your E-Commerce Platform
+          <h1 className=" sm:text-5xl font-bold mb-4 mt-4 sm:mt-0">
+            Drive Growth, Convert Leads
+            Your Ultimate Digital Marketing
+            Partner!
           </h1>
           <p className="text-lg sm:text-xl mb-6">
             A Social Media Marketing Agency for E-Commerce. We combine

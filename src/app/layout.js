@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Brand-Gains | E-commerce Service Agency",
   description: "We assist e-commerce companies with managing their social media accounts so they can concentrate on expanding their enterprises.",
+  openGraph: {
+    url: "https://brand-gains.vercel.app/"
+  }
 };
 
 export default function RootLayout({ children }) {

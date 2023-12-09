@@ -9,9 +9,8 @@ const Footer = () => {
         <h1 className="font-extrabold leading-10 tracking-normal text-black text-center sm:leading-none md:text-6xl text-4xl lg:text-7xl">
           <span className="inline md:block tracking-wider">Book Your</span>
           <span className="mt-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-emerald-400 to-green-500 md:inline-block">
-            Call{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-500 via-cyon-400 to-purple-300">
-              Now
+            <span className="block bg-clip-text text-transparent bg-gradient-to-r from-teal-500 via-cyon-400 to-purple-300">
+              Call Now
             </span>
           </span>
         </h1>
@@ -30,13 +29,15 @@ const Footer = () => {
         <div className="max-w-screen-xl px-4 pt-8 mx-auto sm:px-6 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="flex justify-center text-teal-300 sm:justify-start">
-              <Image
-                className=""
-                src="/assets/images/main_logo_black.png"
-                width={70}
-                height={70}
-                alt="Brand Gains"
-              />
+              <Link href="/">
+                <Image
+                  className=""
+                  src="/assets/images/main_logo_black.png"
+                  width={70}
+                  height={70}
+                  alt="Brand Gains"
+                />
+              </Link>
             </div>
 
             <p className="mt-4 text-sm text-center text-gray-400 lg:text-right lg:mt-0">
