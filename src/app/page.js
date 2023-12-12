@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Wizards from "@/components/Wizards";
 import Call from "@/components/Call";
+import Script from "next/script";
 
 export default function Home() {
   return (
