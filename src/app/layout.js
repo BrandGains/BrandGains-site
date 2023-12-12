@@ -9,8 +9,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Brand-Gains | Elevating Businesses through Expert Social Media Marketing Services",
-  description: "Brand Gains, the go-to social media marketing agency, can help you take your company to the next level. To deliver you leads and long-term happiness, we specialize in ad campaigns, content production, and strategic planning. Our goal is your success, choose Brand Gains for a joyful, powerful marketing journey.",
+  title: "Brand Gains | Your Premier Social Media Marketing Solution",
+  description: "Unlock growth with our expert social media marketing ad campaigns, content, and strategic planning. Your satisfaction guaranteed; your success, our mission.",
   openGraph: {
     url: "https://brand-gains.vercel.app/",
     type: "website",
