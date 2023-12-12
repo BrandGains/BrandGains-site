@@ -20,7 +20,7 @@ const Hero = () => {
           />
         </div>
         <div className="w-full sm:w-1/2 text-black px-8">
-          <h1 className=" sm:text-5xl font-bold mb-4 mt-4 sm:mt-0">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4 mt-4 sm:mt-0">
             Drive Growth, Convert Leads
             Your Ultimate Digital Marketing
             Partner!

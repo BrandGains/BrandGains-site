@@ -10,7 +10,7 @@ const Services = () => {
     {
       name: "Facebook",
       icon: "/assets/images/facebook.svg",
-      page: "https://www.instagram.com/brandgains/",
+      page: "https://www.facebook.com/profile.php?id=61554174041816",
     },
     {
       name: "Instagram",
