@@ -3,4 +3,4 @@ Allow: /
 Allow: /Contact
 Disallow: /_next/image?url=%2Fassets%2Fimages%2Fimage.png&w=1080&q=75
 Disallow: /_next/image?url=%2Fassets%2Fimages%2FRocket-leads.png&w=1080&q=75
-Sitemap: https://brand-gains.vercel.app/sitemap.xml
+Sitemap: https://www.brandgains.me/sitemap.xml
