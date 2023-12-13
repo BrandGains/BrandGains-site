@@ -14,9 +14,9 @@ const Hero = () => {
           <Image
             src="/assets/images/image.png"
             alt="Hero Image"
-            width={1000}
-            height={10}
-            className="w-full rounded-lg"
+            width={1280}
+            height={853}
+            className="rounded-lg"
           />
         </div>
         <div className="w-full sm:w-1/2 text-black px-8">
@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row">
             <Link href="/Contact">
-              <button className="bg-red-500 border border-black hover:shadow-md hover:shadow-zinc-400 text-zinc-800 font-semibold py-2 px-4 rounded-xl text-md">
+              <button className="border border-black rounded-xl px-4 py-2 text-zinc-800 bg-blue-400 hover:shadow-md hover:shadow-zinc-400 transition-colors duration-300">
                 Contact Us
               </button>
             </Link>

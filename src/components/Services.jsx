@@ -109,7 +109,7 @@ const Services = () => {
             ))}
           </div>
           <Link href="/Contact">
-            <button className="flex mx-auto mt-16 bg-blue-400 border border-black hover:shadow-md hover:shadow-zinc-400 text-zinc-800 font-semibold py-2 px-4 focus:outline-none rounded-xl text-lg">
+            <button className="flex mx-auto mt-16 bg-blue-400 border border-black hover:shadow-md hover:shadow-zinc-400 text-zinc-800 py-2 px-4 focus:outline-none rounded-xl text-md">
               Contact us
             </button>
           </Link>

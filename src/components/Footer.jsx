@@ -14,13 +14,13 @@ const Footer = () => {
             </span>
           </span>
         </h1>
-        <Link href="/Contact">
-          <div className="mx-auto rounded-lg font-semibold mt-5 text-zinc-400 md:mt-12 md:max-w-lg text-center lg:text-lg">
+        <div className="mx-auto rounded-lg font-semibold mt-5 text-zinc-400 md:mt-12 md:max-w-lg text-center lg:text-lg">
+          <Link href="/Contact">
             <button className="bg-green-400 border-spacing-3 border-2 border-dashed text-sm text-black py-3 px-7 rounded-full border-black ">
               Apply Now
             </button>
-          </div>
-        </Link>
+          </Link>
+        </div>
       </div>
 
       <hr className="text-black mx-5" />

@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Brand Gains | Your Premier Social Media Marketing Solution",
   description: "Unlock growth with our expert social media marketing ad campaigns, content, and strategic planning. Your satisfaction guaranteed; your success, our mission.",
+  themeColor: "#f0f9ff",
   openGraph: {
     url: "https://brand-gains.vercel.app/",
     type: "website",
