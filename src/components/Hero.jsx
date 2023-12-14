@@ -9,29 +9,30 @@ const Hero = () => {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="flex flex-col-reverse items-center sm:flex-row sm:mt-16 md:mt-0">
+      <section className="mx-10 flex flex-col-reverse items-center sm:flex-row sm:mt-16 md:mt-0">
         <div className="w-full sm:w-1/2">
           <Image
-            src="/assets/images/image.png"
+            src="/assets/images/img.png"
             alt="Hero Image"
-            width={1280}
-            height={853}
+            width={700}
+            height={486}
+            style={{ width: "100%", height: "auto" }}
+            quality="100"
+            loading="eager"
             className="rounded-lg"
           />
         </div>
         <div className="w-full sm:w-1/2 text-black px-8">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 mt-4 sm:mt-0">
-            Drive Growth, Convert Leads
-            Your Ultimate Digital Marketing
-            Partner!
+            Drive Growth, Convert Leads Your Ultimate Digital Marketing Partner!
           </h1>
           <p className="text-lg sm:text-xl mb-6">
-            A Social Media Marketing Agency for E-Commerce. We combine
-            creativity, strategy, and innovative technology to create
-            result-based social media campaigns that deliver exceptional results
+            Ad campaigns, compelling content, unstoppable strategy. Your
+            success, our obsession. From leads to loyalty, we've got you
+            covered.
             <span className="block text-xl text-green-900 underline font-medium">
               {" "}
-              Ready to join the revolution?
+              Let's grow together.
             </span>
           </p>
           <div className="flex flex-col sm:flex-row">

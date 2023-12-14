@@ -5,11 +5,12 @@ const Feature = () => {
   return (
     <section className="text-gray-600 body-font mx-8">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
-        <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+        <div className="flex lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <Image
-            width={1280}
-            height={1000}
+            width={1000}
+            height={1160}
             alt="feature"
+            quality="100"
             className="object-cover object-center"
             src="/assets/images/Rocket-leads.png"
           />
