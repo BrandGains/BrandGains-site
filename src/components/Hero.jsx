@@ -28,11 +28,11 @@ const Hero = () => {
           </h1>
           <p className="text-lg sm:text-xl mb-6">
             Ad campaigns, compelling content, unstoppable strategy. Your
-            success, our obsession. From leads to loyalty, we've got you
+            success, our obsession. From leads to loyalty, we`&apos;ve got you
             covered.
             <span className="block text-xl text-green-900 underline font-medium">
               {" "}
-              Let's grow together.
+              Let`&apos;s grow together.
             </span>
           </p>
           <div className="flex flex-col sm:flex-row">
