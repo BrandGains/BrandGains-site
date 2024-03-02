@@ -81,6 +81,14 @@ const ContactForm = () => {
                       brandgains@gmail.com
                     </div>
                   </div>
+                  <div class="flex items-center mt-4 text-gray-600 dark:text-gray-600">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            <div class="ml-4 text-md tracking-wide font-semibold w-40">
+                                +91 9810544923
+                            </div>
+                        </div>
                 </div>
 
                 <form className="p-6 flex flex-col justify-center">
