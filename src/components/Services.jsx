@@ -36,46 +36,11 @@ const Services = () => {
     //   icon: "/assets/images/google.svg",
     // },
   ];
-  const servicesData = [
-    {
-      title: "Ad Campaigns",
-      icon: "/assets/icons/ads.png",
-      description:
-        "powerful digital marketing strategies with eye-catching ads to grow your company",
-    },
-    {
-      title: "SEO Optimization",
-      icon: "/assets/icons/seo.png",
-      description: "Optimizing your online presence for search engines.",
-    },
-    {
-      title: "Content Creation",
-      icon: "/assets/icons/content-creation.png",
-      description:
-        "We develop hook-and retention-based content that attracts in the audience. ",
-    },
-    {
-      title: "Strategic Planning",
-      icon: "/assets/icons/seo.png",
-      description:
-        "Strategies tailored to your goals, boosting growth in line with market demand.",
-    },
-    {
-      title: "Content Writing",
-      icon: "/assets/icons/content-writing.png",
-      description:
-        "Crafting brand-focused content for effective communication on blogs and websites.",
-    },
-    {
-      title: "Graphic Designing",
-      icon: "/assets/icons/designing.png",
-      description: "Creating visually stunning graphics for your brand.",
-    },
-  ];
+
   return (
     <>
       {/* SERVICES SECTION */}
-      <section className="w-full flex justify-center">
+      <section className="w-full flex flex-col justify-center items-center gap-10">
         <div className="sm:w-4/5 w-11/12 flex justify-evenly gap-20 flex-col sm:flex-row">
           <div className="video sm:w-fit w-fit h-fit  rounded-lg ">
             <iframe
@@ -89,13 +54,52 @@ const Services = () => {
               allowfullscreen
             ></iframe>
           </div>
-          <div className="content flex flex-col sm:w-3/5 w-full justify-center gap-10 p-8 rounded-lg shadow-2xl shadow-blue-700 bg-gradient-to-r from-blue-800 to-indigo-900 ">
-            <h2 className="sm:text-7xl text-4xl font-extrabold text-slate-100 tracking-wide w-full">
-              Editing?
+          <div className="content flex flex-col sm:w-3/5 w-full justify-around p-8 rounded-lg shadow-2xl shadow-blue-700 bg-gradient-to-r from-blue-800 to-indigo-900 ">
+            <h2 className="editing sm:text-7xl text-4xl font-extrabold text-slate-100 tracking-wide w-full leading-7">
+              <span className="editing">Editing</span> And Marketing?
             </h2>
-            <p className="text-xl font-medium text-slate-200">
-              We are <span className="text-2xl">Here!!</span>
+            <p className="text-lg font-medium text-slate-200 tracking-wider">
+              <span className="text-2xl font-bold text-yellow-300">
+                Looking to boost your brand's social media presence?{" "}
+              </span>
+              Brand Gains can help. We specialize in crafting high-quality
+              short-form content that captures attention and drives results.{" "}
+              <hr className="mt-3" /> <br /> Contact Brand Gains today for a
+              free consultation and see how we can help you tell your brand
+              story through captivating short-form content.
             </p>
+          </div>
+        </div>
+        <div className="w-full flex justify-center gap-10">
+          <Link href="https://www.youtube.com/@brandgains">
+            <button className="border border-black rounded-xl px-4 py-2 text-zinc-800 bg-lime-400 hover:shadow-md hover:shadow-zinc-400 transition-colors duration-300">
+              Our Work
+            </button>
+          </Link>
+          <Link href="/Contact">
+            <button className="border border-black rounded-xl px-4 py-2 text-zinc-800 bg-blue-400 hover:shadow-md hover:shadow-zinc-400 transition-colors duration-300">
+              Contact Us
+            </button>
+          </Link>
+        </div>
+        <div className="flex justify-center items-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {socialMediaIcons.map((icon, index) => (
+              <Link href={icon.page} key={index} target="_blank">
+                <div
+                  key={index}
+                  className="bg-white rounded-md p-2 shadow-md flex items-center justify-center mb-4 mx-auto"
+                >
+                  <Image
+                    src={icon.icon}
+                    alt={icon.name}
+                    width={10}
+                    height={10}
+                    className="w-10 h-10 m-2"
+                  />
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

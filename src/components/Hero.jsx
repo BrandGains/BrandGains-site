@@ -24,12 +24,13 @@ const Hero = () => {
         </div>
         <div className="w-full sm:w-1/2 text-black px-8">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4 mt-4 sm:mt-0">
-            Drive Growth, Convert Leads Your Ultimate Digital Marketing Partner!
+            Ready to take your social media to the next level?
           </h1>
           <p className="text-lg sm:text-xl mb-6">
-            Ad campaigns, compelling content, unstoppable strategy. Your
-            success, our obsession. From leads to loyalty, we&apos;ve got you
-            covered.
+            In today's fast-paced digital world, attention spans are shorter
+            than ever. That's where Brand Gains comes in. We specialize in
+            crafting engaging short-form content that cuts through the noise and
+            resonates with your target audience.
             <span className="block text-xl text-green-900 underline font-medium">
               {" "}
               Let&apos;s grow together.
