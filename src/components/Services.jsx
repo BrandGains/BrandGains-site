@@ -50,7 +50,7 @@ const Services = () => {
               src="https://www.youtube.com/embed/JjzEGstr-Kg?autoplay=1"
               title="Did You Caught All These Details in The Spider-Man into the Spider-Verse?..."
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
           </div>
