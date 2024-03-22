@@ -27,8 +27,8 @@ const Hero = () => {
             Ready to take your social media to the next level?
           </h1>
           <p className="text-lg sm:text-xl mb-6">
-            In today's fast-paced digital world, attention spans are shorter
-            than ever. That's where Brand Gains comes in. We specialize in
+            In today&apos;s fast-paced digital world, attention spans are shorter
+            than ever. That&apos;s where Brand Gains comes in. We specialize in
             crafting engaging short-form content that cuts through the noise and
             resonates with your target audience.
             <span className="block text-xl text-green-900 underline font-medium">

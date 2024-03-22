@@ -60,7 +60,7 @@ const Services = () => {
             </h2>
             <p className="text-lg font-medium text-slate-200 tracking-wider">
               <span className="text-2xl font-bold text-yellow-300">
-                Looking to boost your brand's social media presence?{" "}
+                Looking to boost your brand&apos;s social media presence?{" "}
               </span>
               Brand Gains can help. We specialize in crafting high-quality
               short-form content that captures attention and drives results.{" "}
